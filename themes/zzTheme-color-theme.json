@@ -1,9 +1,18 @@
+//   #1e1f1c (tab well, borders)
+//   #000000 (editor background)
+//   #008000 (comment green)
+//   #70B0FF (function blue)
+//   #FF0080 (keyword and type)
+//   #808080 (Constant grey)
+//   #FF8000 (Global variable yellow)
+//   #40FFFF (Define)
+//   #FFFFB3 (Member)
 {
 	"name": "zzTheme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
+		"editor.background": "#000000",
+		"editor.foreground": "#CCCCCC",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
@@ -56,7 +65,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#FF0080"
 			}
 		},
 		{
@@ -76,7 +85,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -100,7 +109,8 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"fontStyle": "bold",
+				"foreground": "#70B0FF"
 			}
 		},
 		{
@@ -625,5 +635,6 @@
 				"foreground": "#EEFFFF"
 			}
 		}
-	]
+	],
+	"semanticHighlighting": true
 }
