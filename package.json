@@ -1,0 +1,21 @@
+{
+    "name": "zzTheme",
+    "displayName": "zzTheme",
+    "description": "ZZGodGundam's Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "zzTheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/zzTheme-color-theme.json"
+            }
+        ]
+    }
+}
