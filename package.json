@@ -17,5 +17,9 @@
                 "path": "./themes/zzTheme-color-theme.json"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/zzgodgundam/zzTheme.git"
     }
 }
