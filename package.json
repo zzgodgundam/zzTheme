@@ -1,7 +1,7 @@
 {
-    "name": "zzTheme",
+    "name": "zztheme",
     "displayName": "zzTheme",
-    "description": "ZZGodGundam's Theme",
+    "description": "ZZGodGundam's Color Theme",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.46.0"
